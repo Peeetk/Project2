@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pete's Coffe Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Welcome to Pete's Coffee Shop</h1>
+      <p>Experience handcrafted coffee made with passion and the finest beans.</p>
+    </header>
+
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">Logo</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="product.html">PRODUCT</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      </nav>
+    </header>
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links')
+        navLinks.classList.toggle('active')
+      }
+    </script>
+    <h1>Coffee Menu</h1>
+        <div class="product">
+            <div class="productitem">
+                 <p>Latte</p>
+                <img src="./assets/Cafe-Latte.jpg" alt="Latte" />
+            </div>
+            <div class="productitem">
+                 <p>Iced Coffe</p>
+                 <img src="./assets/coffee-5495609_640.jpg" alt="Iced Coffe" />
+            </div>
+            <div class="productitem">
+                 <p>Dark Chocolate</p>
+                 <img src="./assets/Dark-Chocolate.jpg" alt="Dark Chocolate" />
+             </div>
+           
+  </div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,106 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pete's Coffe Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Welcome to Pete's Coffee Shop</h1>
+      <p>Experience handcrafted coffee made with passion and the finest beans.</p>
+      
+
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">Logo</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="product.html">PRODUCT</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      </nav>
+    </header>
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links')
+        navLinks.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
+
+
+
+    <!-- Content Section -->
+
+    <div class="content">
+      <!-- Content Header -->
+
+      <div class="header">
+        <h1>PETE'S COFFEE SHOP</h1>
+      </div>
+      <!-- Content Image --><!-- About Section -->
+<section class="about">
+  <h2>Why Choose Us?</h2>
+  <p>
+    At Pete’s Coffee Shop, we believe in quality, freshness, and sustainability.
+    Our beans are ethically sourced, roasted to perfection, and brewed by expert
+    baristas.
+  </p>
+  <ul>
+    <li>☕ 100% Arabica Beans</li>
+    <li>🌍 Ethically Sourced & Eco-Friendly</li>
+    <li>👨‍🍳 Crafted by Skilled Baristas</li>
+    <li>🏆 Award-Winning Specialty Coffee</li>
+  </ul>
+</section>
+
+
+      <!-- Content Body -->
+
+      <div class="body">
+        <p>
+          Good coffee should have a balanced flavor, with no overpowering
+          bitterness or acidity. The aroma should be pleasant and inviting, and
+          the texture should be smooth and not gritty. This is the reason why we
+          are the best of the Town!!
+        </p
+
+        
+
+        <!-- Nutrition Information -->
+
+        <ul class="nutrition">
+          <li>
+            <span class="category">CALORIES</span>
+            <span class="value">678</span>
+          </li>
+          <li>
+            <span class="category">FAT</span>
+            <span class="value">32</span>
+          </li>
+          <li>
+            <span class="category">PROTEIN</span>
+            <span class="value">8</span>
+          </li>
+          <li>
+            <span class="category">CARBOHYDRATES</span>
+            <span class="value">34</span>
+          </li>
+          <li>
+            <span class="category">SODIUM</span>
+            <span class="value">112</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
