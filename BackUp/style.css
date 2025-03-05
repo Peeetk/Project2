@@ -23,7 +23,7 @@ body {
 .about {
     text-align: center;
     padding: 40px 20px;
-    color: rgb(78, 185, 110);
+    color: red;
     
 }
 
@@ -43,7 +43,7 @@ body {
 a {
   text-decoration: none;
   background-color: orange;
-  font-display:inherit;
+  font-display: inline-block;
 }
 
 /* Navigation */
@@ -89,9 +89,10 @@ nav span {
   color: #fff;
   font-family: "Oswald", sans-serif;
   font-size: 40px;
-  font-weight:300;
+  font-weight: 300;
   line-height: 40px;
-  width: 68%;  
+  width: 68%;
+  height: 320;
   padding: 20px;
   margin: 0 auto;
 }
@@ -178,7 +179,8 @@ ul.menubanner li {
 .menubanner .category1 {
   color: rgb(0, 0, 0);
   font-weight: 100;
-  height: 80px;  
+  height: 80px;
+  weight: 100px
   letter-spacing: 2px;
   display: flow-root;
   flex-direction: row-reverse;
@@ -201,14 +203,15 @@ ul.menubanner li {
 
 
   #banner {
-    height: 110px;    
+    height: 110px;
+    weight: center;
     border: 3px double white;
     background-image: url(./assets/bannerMenu.jpg);
     background-size: contain;
   }
 
   .content {
-    font-size: 40px;
+    font-size: 80x;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 
@@ -527,4 +530,5 @@ button:hover {
 
 #basket button:hover {
     background-color: darkred;
-  }
+}
+
