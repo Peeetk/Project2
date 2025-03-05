@@ -140,6 +140,8 @@ ul.nutrition li {
   width: 300px;
   padding: 10px 20px;
   margin-bottom: 3px;
+  
+  
 }
 
 .nutrition .category {
@@ -150,6 +152,7 @@ ul.nutrition li {
   flex-direction: row-reverse;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
+   
 }
 
 .nutrition .value {
@@ -160,11 +163,12 @@ ul.nutrition li {
   margin-right: 18px;
   height: 20px;
   width: max-content;
+   
 }
 
 /*menu*/
 ul.menubanner li {
-  display: inline-block;
+  display:inline-table;
   background-color: #05a8aa;
   list-style: none;
   width: 300px;
@@ -182,6 +186,7 @@ ul.menubanner li {
   flex-direction: row-reverse;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
+ 
 }
 
 .menubanner .value1 {
@@ -190,10 +195,12 @@ ul.menubanner li {
   font-weight: 700;
   letter-spacing: 2px;
   margin-right: 18px;
-  display: flex;
+  display:flex;
   height: 80px;
   width: max-content;
-}
+  text-align-last: center;
+ }
+
 
   #banner {
     height: 110px;
@@ -334,7 +341,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #333;
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 
 .navbar .logo a {
@@ -402,8 +409,8 @@ body {
 .product {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    max-width: 900px;
+    gap: 85px;
+    max-width: 700px;
     margin: auto;
     text-align: center;
 }
@@ -413,14 +420,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
 }
 
 .productitem img {
-    width: 100%;
+    width:400px;
     height: 400px;
-    object-fit:inherit;
-    border-radius: 100px;
+    object-fit:fill;
+    border-radius: 150px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -524,3 +531,4 @@ button:hover {
 #basket button:hover {
     background-color: darkred;
 }
+
