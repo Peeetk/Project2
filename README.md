@@ -25,7 +25,7 @@ The primary goal of this web application is to provide customers with a seamless
 ---
 
 ## 🔧 Technologies Used
-- **Frontend:** HTML, CSS, JavaScript (React.js)
+- **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Deployment:** Vercel / Netlify / Heroku

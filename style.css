@@ -85,7 +85,7 @@ nav span {
 }
 
 .header h1 {
-  background-color: #05a8aa;
+  background-color: #05a7aa;
   color: #fff;
   font-family: "Oswald", sans-serif;
   font-size: 40px;
@@ -115,7 +115,7 @@ nav span {
 
 .button {
   border-radius: 4px;
-  color: #05a8aa;
+  color: #05a7aa;
   display: block;
   font-weight: 700;
   width: 200px;
@@ -125,7 +125,7 @@ nav span {
 }
 
 .button:hover {
-  background-color: #05a8aa;
+  background-color: #05a7aa;
   border: 1px solid #05a8aa;
   color: #fff;
 }
@@ -134,7 +134,7 @@ nav span {
 
 ul.nutrition li {
   display: inline-block;
-  background-color: #05a8aa;
+  background-color: #05a7aa;
   list-style: none;
   width: 300px;
   padding: 10px 20px;
@@ -151,6 +151,7 @@ ul.nutrition li {
   flex-direction: row-reverse;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
+  
    
 }
 
@@ -162,17 +163,22 @@ ul.nutrition li {
   margin-right: 18px;
   height: 20px;
   width: max-content;
+  
    
 }
 
 /*menu*/
 ul.menubanner li {
+  
   display:inline-table;
   background-color: #05a8aa;
   list-style: none;
   width: 300px;
   padding: 10px 20px;
   margin-bottom: 3px;
+  justify-content: center;   /* Centers text horizontally */
+    align-items: center;       /* Centers text vertically */
+    text-align: center;     
 }
 
 .menubanner .category1 {
@@ -184,7 +190,7 @@ ul.menubanner li {
   flex-direction: row-reverse;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
- 
+  box-sizing: border-box;
 }
 
 .menubanner .value1 {
@@ -196,8 +202,11 @@ ul.menubanner li {
   display:flex;
   height: 80px;
   width: max-content;
-  text-align-last: center;
- }
+  align-items: center;  
+  text-align: center;  
+  flex-direction: row-reverse;  
+  justify-content: center;
+  }
 
 
   #banner {
@@ -234,7 +243,7 @@ ul.menubanner li {
   }
 
   .h3 {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: #05a8aa;
     text-align: center;
   }
@@ -249,7 +258,7 @@ ul.menubanner li {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 5px;
 }
 
