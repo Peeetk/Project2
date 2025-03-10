@@ -42,8 +42,8 @@ body {
 
 a {
   text-decoration: none;
-  background-color: orange;
-  font-display:inherit;
+  background-color: rgb(255, 166, 0);
+  
 }
 
 /* Navigation */
