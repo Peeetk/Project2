@@ -5,7 +5,7 @@ Welcome to the **Coffee Shop Web Application** — a delightful platform where u
 ---
 
 ## 🌟 Purpose
-The primary goal of this web application is to provide customers with a seamless browsing and ordering experience. Whether you're a coffee enthusiast or looking for a quick snack, our intuitive interface ensures you can find your favorites with ease.
+The primary goal of this web application is to provide customers with a seamless browsing and ordering experience. Whether you're a coffee enthusiast or looking for a quick snack, our intuitive interface ensures you can find your favorites with ease and not last you can order online.
 
 ---
 
@@ -27,13 +27,13 @@ The primary goal of this web application is to provide customers with a seamless
 ## 🔧 Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB
 - **Deployment:** Vercel / Netlify / Heroku
 
 ---
 
 ## 📞 Contact
-For questions, feedback, or suggestions, please reach out to us at [your-email@example.com](mailto:your-email@example.com).
+For questions, feedback, or suggestions, please reach out to us at [peter.karadi2018@gmail.com].
+LinkedIn will come soon.
 
 ---
 
